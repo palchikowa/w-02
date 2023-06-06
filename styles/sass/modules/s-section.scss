@@ -1,0 +1,44 @@
+/* ==================== s-section =================== */
+
+.s-section__header {
+	padding: 1em 0;
+
+}
+.s-section__meta {
+	font-size: var(--fz-bs);
+	color: var(--c-ui);
+	font-family: var(--f-heads);
+	font-weight: 700;
+	margin: 1em 0;
+	
+}
+
+.s-section__title {
+	font-size: var(--fz-lg);
+	margin: 1em 0;
+	font-family: var(--f-heads);
+	font-weight: 700;
+	line-height: var(--lh);
+	padding-right: 1em; 
+}
+
+.s-section__desc {
+	font-size: var(--fz-sm);
+	margin: 1em 0;
+}
+
+/* ================ l-container ================= */
+
+.l-container {
+	padding: var(--page-pad);
+	border-top-left-radius: var(--br-main);
+	
+}
+
+@media (min-width: 1500px) {
+	.s-section__meta {
+		font-size: var(--fz-ml);
+	}
+
+	
+}

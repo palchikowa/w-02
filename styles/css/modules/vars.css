@@ -1,0 +1,38 @@
+/* debug */
+/* vars */
+:root {
+  --f-heads: 'Magistral', 'Evolventa', 'Arial', sans-serif;
+  --f-txt: 'Evolventa', 'Arial', sans-serif;
+  --fz-sm: 0.875rem;
+  /* 14px */
+  --fz-bs: 1rem;
+  /* 16px */
+  --fz-ml: 1.25rem;
+  /* 20px */
+  --fz-md: 1.5rem;
+  /* 24px */
+  --fz-lg: 1.875rem;
+  /* 30px */
+  --fz-lx: 2.5rem;
+  /* 40px */
+  --fz-lxx: 3.375rem;
+  /* 54px */
+  --c-alt: #fff;
+  --c-alt-tr-6: rgba(255,255,255,0.6);
+  --c-alt-tr-3: rgba(255,255,255,0.3);
+  --c-main: rgb(36,37,40);
+  --c-main-tr: rgba(36,37,40, 0.6);
+  --c-txt-main: #0E1C29;
+  --c-bg: #EFF1F8;
+  --c-ui: #798FA4;
+  --c-accent: #0856A0;
+  --c-details: #D9E2F0;
+  --c-txt-alt: var(--c-alt);
+  --page-pad: 1.5rem;
+  --h-logo: calc(var(--fz-sm) * 3);
+  --w-logo: calc(var(--h-logo) * 3);
+  --s-pad: calc(var(--h-logo) * 2);
+  --lh: 1.5;
+  --br-main: 0.25em; }
+
+/*# sourceMappingURL=vars.css.map */

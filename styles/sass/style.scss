@@ -1,0 +1,25 @@
+@import "fonts.scss";
+@import "modules/vars.scss";
+@import "modules/components.scss";
+@import "modules/s-section.scss";
+@import "modules/s-header.scss";
+@import "modules/s-about.scss";
+@import "modules/s-projects.scss";
+@import "modules/s-services.scss";
+@import "modules/s-partners.scss";
+@import "modules/s-feedback.scss";
+@import "modules/s-contacts.scss";
+@import "modules/s-footer.scss";
+
+
+
+/* components */
+
+// s-cards--wicon - карточки с иконками
+// s-cards--wimg - карточки с изображениями
+
+body {
+	font-family: var(--f-txt);
+	background-color: var(--c-bg);
+}
+

@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Magistral';
+  src: url("/assets/fonts/Magistral/Magistral_Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Magistral';
+  src: url("/assets/fonts/Magistral/Magistral_Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: 'Evolventa';
+  src: url("/assets/fonts/Evolventa/Evolventa-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Evolventa';
+  src: url("/assets/fonts/Evolventa/Evolventa-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+/*# sourceMappingURL=fonts.css.map */

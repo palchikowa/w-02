@@ -1,0 +1,131 @@
+/* projects */
+
+.s-projects {
+	padding: var(--page-pad) 0;
+	padding-left: var(--page-pad);
+	color: var(--c-alt);
+
+	.l-container {
+		background-color: var(--c-accent);
+		border-bottom-left-radius: var(--br-main);
+	}
+
+	.s-cards--wimg {
+		--simg: 9rem; 
+		figure {
+			width: 100%; 
+			margin-bottom: 1em; 
+			height: var(--simg);
+			background-color: var(--c-ui);
+			background-position: 50% 50%;
+			background-size: cover;
+			border-radius: var(--br-main);
+		}
+
+		li {
+			margin-bottom: 2em;
+		}
+
+		li:nth-child(1) {
+			figure {
+				background-image: url('/assets/img/p01.png');
+			}
+		}
+		li:nth-child(2) {
+			figure {
+				background-image: url('/assets/img/p02.png');
+			}
+		}
+		li:nth-child(3) {
+			figure {
+				background-image: url('/assets/img/p02.png');
+			}
+		}
+		li:nth-child(4) {
+			figure {
+				background-image: url('/assets/img/p01.png');
+			}
+		}
+
+		header {
+			span {
+				font-size: var(--fz-sm);
+				color: var(--c-alt-tr-3);
+			}
+			h4 {
+				margin: 1rem 0;
+				font-family: var(--f-heads);
+				font-size: var(--fz-md);
+				font-weight: 700;
+			}
+		}
+	}
+}
+
+@media (min-width: 900px) {
+	.s-projects {
+		.s-cards--wimg {
+			display: flex;
+			flex-wrap: wrap; 
+			
+
+			li {
+				padding: var(--page-pad);
+				margin-bottom: 0;
+				figure {
+					min-height: 20rem; 
+				}
+			}
+		}
+		.s-card {
+			flex: 30% 1 0;
+			width: 30%; 
+		}
+
+		.s-card-lg {
+			flex: 60% 0 0; 
+			width: 60%; 
+		}
+
+
+	}
+
+}
+
+@media (min-width: 1564px) {
+	.s-projects {
+		--grid-col-count: 19;
+		--grid-row-count: 13;
+		aspect-ratio: var(--grid-col-count) / var(--grid-row-count);
+
+		.l-container {
+			grid-column: 2 / -1;
+			grid-row: 1 / -1;
+		}
+
+		.s-cards--wimg {
+			margin-left: calc(var(--page-pad) * 6);
+		}
+
+		.s-section__header {
+			display: flex; 
+			justify-content: space-between;
+			align-items: start;
+		}
+
+		.s-section__title {
+			margin: 0;
+			padding-right: calc(var(--page-pad) * 7);
+			font-size: calc(var(--fz-lg) * 1.5);
+		}
+		li {
+			figure {
+				height: 35rem;
+			}
+		}
+
+		.s-pagination {
+			margin-left: calc(var(--page-pad) * 6);
+		}
+	}
+}
